@@ -3,30 +3,30 @@
 # CHANDELIER Framework
 
 ## Overview
-CHANDELIER is NATION's mathematical framework that validates network unity through edge-based collaboration. By providing formal proofs for network properties and edge evolution, it ensures that value grows through shared success and collective validation.
+CHANDELIER is SKENAI's mathematical proofs framework that demonstrates unity through formal validation. Part of SKENAI-R, it combines rigorous mathematical proofs with GFORCE's foundation to ensure network completeness and value flow verification.
 
 ## Core Components
-### Edge Validation
-- Quality assessment
+### Mathematical Foundation
+- Network validation proofs
+- Edge verification system
+- Challenge completeness
+- Evolution tracking
+
+### Unity Validation
+- Team amplification proofs
+- Shared success metrics
+- Network growth validation
+- Value contribution proofs
+
+### Challenge Framework
+- Edge validation
 - Network stability
-- Challenge verification
+- Quality verification
 - Growth tracking
 
-### Unity Mechanics
-- Team amplification
-- Shared success metrics
-- Network growth share
-- Value contribution
-
+## Network Properties
 ### Foundation Structure
-- 100 foundation seats
-- Edge creation system
-- Network validation
-- Challenge participation
-
-## Mathematical Framework
-### Network Properties
-- Edge-based structure
+- Edge-based network
 - Growth validation
 - Unity mechanics
 - Value verification
@@ -44,7 +44,7 @@ CHANDELIER is NATION's mathematical framework that validates network unity throu
 - Value tracking
 
 ## Performance Metrics
-### AI Capabilities
+### AI Integration
 - Pattern recognition: 87% accuracy
 - Market prediction: 76% success
 - System uptime: 99.98%
@@ -64,16 +64,16 @@ CHANDELIER is NATION's mathematical framework that validates network unity throu
 - Quality assessment
 
 ### GFORCE Foundation
-- Network foundation
-- Value components
-- Challenge systems
-- Growth mechanics
-
-### Evolution Arena
 - Network validation
 - Edge verification
 - Challenge proofs
 - Evolution tracking
+
+### Evolution Arena
+- Network foundation
+- Value components
+- Challenge systems
+- Growth mechanics
 
 ## References
 - [1-G-L0-224-GFORCE-MATH](Mathematical Framework)
