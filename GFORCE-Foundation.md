@@ -15,10 +15,10 @@ GFORCE provides the mathematical foundation for NATION through six fundamental v
 - **e**: Edge evolution (growth potential)
 
 ### Network Properties
-- Graph G = (V, E)
-- |V| ≤ 24,000 positions
-- Edge types: {PARENT, IMPLEMENTS, ENHANCES, FOUNDATION, VALIDATES}
-- Edge strength: [0.9, 1.0]
+- Graph-based structure
+- Network size constraints
+- Edge type system
+- Strength evolution mechanics
 
 ## Challenge System
 ### Type Weights
@@ -60,21 +60,21 @@ GFORCE provides the mathematical foundation for NATION through six fundamental v
 
 ## Technical Details
 ### Network Bounds
-- Component values: [0,1000]
-- Challenge impact: ≤ (1000 - current_value)
-- Edge strength: [0.9, 1.0]
-- Network size: |V| ≤ 24,000
+- Component value ranges
+- Challenge impact mechanics
+- Edge strength evolution
+- Network size scaling
 
 ### Evolution Rules
 1. Edge Growth
-   ```
-   new_strength = current_strength * (1 + (quality * type_weight))
-   ```
+   - Quality-based progression
+   - Type-weighted impact
+   - Network stability focus
 
-2. Network Cap
-   ```
-   min(21k, max(10.5k * size/100, 50k * size/24k))
-   ```
+2. Network Growth
+   - Size-based scaling
+   - Value-based bounds
+   - Challenge impact rules
 
 ## References
 - GFORCE-MATH proposal (1-G-L0-224-GFORCE-MATH)
