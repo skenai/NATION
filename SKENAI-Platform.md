@@ -95,8 +95,8 @@ SKENAI demonstrates the power of unity through NATION's technology platform. By 
 - Growth mechanics
 
 ## References
-- [1-G-L0-224-GFORCE-MATH](Mathematical Framework)
-- [1-G-L0-208-AHISS-PROPOSAL](AHISS System)
+- [[GFORCE Mathematical Framework|1-G-L0-224-GFORCE-MATH]]
+- [[AHISS System|1-G-L0-208-AHISS-PROPOSAL]]
 - [[Technical Specifications]]
 - [[Network Validation]]
 - [[Mathematical Framework]]
