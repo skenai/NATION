@@ -18,10 +18,10 @@ CHANDELIER is a mathematical proofs and validation framework within SKENAI-R, pr
 
 ## Mathematical Foundation
 ### Network Properties
-- Graph G = (V, E)
-- |V| ≤ 24,000 positions
-- Typed edges with strengths
-- Value components (g,f,o,r,c,e)
+- Graph-based structure
+- Network size constraints
+- Edge type system
+- Value component framework
 
 ### Validation Framework
 - Network completeness proofs
