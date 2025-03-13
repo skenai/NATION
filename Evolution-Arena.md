@@ -1,3 +1,5 @@
+[[_TOC_]]
+
 # Evolution Arena
 
 ## Overview
@@ -17,14 +19,15 @@ Evolution Arena is a core component of the GFORCE network that enables competiti
 - **Types** (with weights 1.0x - 1.5x):
   * TOKEN_METRICS: Value validation
   * SECURITY: Edge protection
-  * EFFICIENCY: Pattern optimization
+  * EFFICIENCY: Pattern optimization 
   * NETWORK: Graph properties
   * VALIDATION: Proof verification
+  * FOUNDATION: Hash chain verification
 - **Quality scoring**: 0-1000
 - **Success metrics**: 99% recognition
 
 ## XP Distribution
-Powered by [WILLPOWER](WILLPOWER.md)'s pattern recognition system:
+Powered by [[WILLPOWER]]'s pattern recognition system:
 - **Base**: 10,500 XP
 - **MVP**: 21,000 XP/action
 - **Phase 3**: 105,000 XP/action
@@ -51,3 +54,9 @@ Evolution Arena implements CHANDELIER's mathematical framework through:
 - **Value Components**: g,f,o,r,c,e ∈ [0,1000]
 - **Edge Types**: {PARENT, IMPLEMENTS, ENHANCES, FOUNDATION, VALIDATES}
 - **Edge Strength**: [0,1000]
+
+## Related Pages
+- [[Technical Specifications]]
+- [[Mathematical Framework]]
+- [[Network Validation]]
+- [[Value Flow System]]
