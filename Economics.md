@@ -5,77 +5,89 @@
 ## Overview
 NATION's economic model demonstrates the power of unity through an innovative edge-based staking system. By combining WILLPOWER's AI capabilities (87% accuracy) with CHANDELIER's mathematical validation, we create a network where value grows through collaboration and shared success.
 
-## Edge System
-### Foundation
-- Network positions (seats) form the core structure
-- Edges connect positions to create value flows
-- Edge strength determines network impact
-- Initial opportunity: 100 foundation seats
+## Core Components
+### Edge Foundation
+- Network positions (100 seats)
+- Edge creation mechanics
+- Quality validation
+- Growth tracking
 
-### Edge Evolution
-- Quality-based growth
-- Network validation
-- Challenge completion
-- Value optimization
-
-### Edge Types
-1. FOUNDATION
-   - Core network stability
-   - High impact validation
-   - Network governance
-
-2. SECURITY
-   - Network protection
-   - Value verification
-   - Challenge validation
-
-3. EFFICIENCY
-   - Resource optimization
-   - Flow improvement
-   - Cost reduction
-
-4. NETWORK
-   - Position connectivity
-   - Edge development
-   - Value distribution
-
-## Staking Mechanics
-### Foundation Seats
-- Limited initial availability: 100 seats
-- Network foundation access
-- Edge creation rights
-- Challenge participation
-
-### Edge Requirements
-- Network validation
-- Quality assessment
-- Challenge completion
+### Unity System
+- Team amplification
+- Shared success metrics
+- Network growth share
 - Value contribution
 
-### Growth Mechanics
-- Edge strength evolution
-- Network expansion
-- Value flow optimization
-- Position development
+### Challenge Framework
+- Edge validation
+- Network stability
+- Quality verification
+- Growth tracking
 
-## Unity Incentives
-### Network Effects
-- Collaborative challenges
-- Shared success metrics
-- Team amplification
-- Network growth share
+## SHIBAKEN Token (ShibaKen.Finance)
+### Overview
+See [[Token System]] for complete details.
 
-### Value Distribution
-- Challenge completion rewards
-- Edge strength bonuses
-- Network stability share
-- Growth participation
+- GFORCE Governance Token with [[UnBreakable Bond]] integration
+- Native participation token of [[SKENAI Platform]]
+- Purpose: Enable system participation and community engagement
+- Total supply: 100,000,000,000,000,000 SHIBAKEN (100 quadrillion)
+- Initial supply: 100,000,000 SHIBAKEN (100 million)
+- Annual inflation: 3%
+- Status: Deployed May 2021
+- Contract address: 0xa4cf2afd3b165975afffbf7e487cdd40c894ab6b
 
-### Team Mechanics
-- Knowledge optimization
-- Resource allocation
-- Network enhancement
-- Value creation
+### Governance
+- Minimum proposal balance: 1,000 SHIBAKEN
+- Voting power based on token holdings
+- Integrated with [[UnBreakable Bond]] system
+- Integration with [[SBX Token]], [[SBV Token]], and [[BSTBL Token]]
+
+### Token Relationships
+See [[Token Integration|1-G-L0-224-TOKEN-INTEGRATION]] for details.
+- SBX Token: Network value measurement
+- SBV Token: Value flow tracking
+- BSTBL Token: Stability maintenance
+- Dynamic relationship ratios
+- Real-time updates
+
+## Staking Mechanics
+### Network Seats
+- 100 total network seats
+- Minimum stake: 10,000 SHIBAKEN per seat
+- Lock period: 30 days minimum
+- Earn 0.1% daily rewards
+
+### Edge Creation
+- Requires 1,000 SHIBAKEN per edge
+- Both parties must stake
+- Earn 0.05% daily edge rewards
+- Additional rewards for high-quality edges
+
+### Challenge Participation
+- Stake 500 SHIBAKEN to join challenges
+- Higher stakes = higher potential rewards
+- Rewards based on challenge difficulty
+- Team amplification bonuses
+
+## XP System
+### Earning XP
+- Complete daily challenges: 10-100 XP
+- Create quality edges: 50 XP per edge
+- Validate network actions: 5-20 XP
+- Participate in governance: 25-100 XP
+
+### Level Benefits
+- Level 1 (0-1000 XP): Basic participation
+- Level 2 (1001-5000 XP): Edge creation
+- Level 3 (5001-20000 XP): Challenge creation
+- Level 4 (20001+ XP): Governance rights
+
+### Team Amplification
+- Form teams of 3-5 members
+- Share XP rewards (20% bonus)
+- Joint challenge participation
+- Shared governance weight
 
 ## Performance Metrics
 ### AI Capabilities
@@ -110,8 +122,8 @@ NATION's economic model demonstrates the power of unity through an innovative ed
 - Growth mechanics
 
 ## References
-- [1-G-L0-224-GFORCE-MATH](Mathematical Framework)
-- [1-G-L0-208-AHISS-PROPOSAL](AHISS System)
+- [[GFORCE Mathematical Framework|1-G-L0-224-GFORCE-MATH]]
+- [[AHISS System|1-G-L0-208-AHISS-PROPOSAL]]
 - [[Technical Specifications]]
 - [[Network Validation]]
 - [[Mathematical Framework]]
