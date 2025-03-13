@@ -13,10 +13,10 @@
 * [[Launch Details]]
 
 ## Integration Points
-* CHANDELIER Framework
-* SKENAI Platform
-* GFORCE Foundation
+* [[CHANDELIER Framework]]
+* [[SKENAI Platform]]
+* [[GFORCE Foundation]]
 
 ## Development
-* Implementation Timeline
-* Deployment Guide
+* [[Implementation Timeline]]
+* [[Deployment Guide]]
