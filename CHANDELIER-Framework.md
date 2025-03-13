@@ -76,8 +76,8 @@ CHANDELIER is SKENAI's mathematical proofs framework that demonstrates unity thr
 - Growth mechanics
 
 ## References
-- [1-G-L0-224-GFORCE-MATH](Mathematical Framework)
-- [1-G-L0-208-AHISS-PROPOSAL](AHISS System)
+- [[GFORCE Mathematical Framework|1-G-L0-224-GFORCE-MATH]]
+- [[AHISS System|1-G-L0-208-AHISS-PROPOSAL]]
 - [[Technical Specifications]]
 - [[Network Validation]]
 - [[Mathematical Framework]]
