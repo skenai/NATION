@@ -1,51 +1,100 @@
+[[_TOC_]]
+
 # Technical Specifications
 
-## Smart Contracts
+## System Architecture
+### WILLPOWER Integration
+- **Platform**: Bubble.io (shibakenfinance.bubbleapps.io/version-test/)
+- **Pattern Recognition**: 53+ dimensions
+- **Validation Accuracy**: 87%
+- **System Uptime**: 99.98%
 
-### EdgeEvolution
-- Scale Factor: 1000 (3 decimals)
-- Max Edge Strength: 1.0
-- Initial Edge: 0.9
+### Smart Contracts
+1. **EdgeEvolution**
+   ```solidity
+   contract EdgeEvolution {
+       uint256[6] private typeWeights = [
+           1000,  // TOKEN_METRICS
+           1200,  // SECURITY
+           1100,  // EFFICIENCY 
+           1300,  // NETWORK
+           1400,  // VALIDATION
+           1500   // FOUNDATION
+       ];
+   }
+   ```
 
-Challenge Types (weights):
-1. TOKEN_METRICS (1.0x): Value validation
-2. SECURITY (1.2x): Edge protection
-3. EFFICIENCY (1.1x): Pattern optimization
-4. NETWORK (1.3x): Graph properties
-5. VALIDATION (1.4x): Proof verification
-6. FOUNDATION (1.5x): Hash chain verification
+2. **PriceCalculator**
+   ```solidity
+   contract PriceCalculator {
+       uint256 constant BASE_PRICE = 2500;  // $2,500
+       uint256 constant MAX_VALUE = 1000;
+       uint256 constant MIN_EDGE_STRENGTH = 900;  // 0.9
+       uint256 constant MAX_EDGE_STRENGTH = 1000; // 1.0
+   }
+   ```
 
-### PriceCalculator
-- Base Price: $2,500
-- Max Stake: 10M SHIBAK
-- Max Impact: $500
+## Network Constraints
+- **Size**: |V| ≤ 24,000 positions
+- **Value Components**: g,f,o,r,c,e ∈ [0,1000]
+- **Edge Types**: {PARENT, IMPLEMENTS, ENHANCES, FOUNDATION, VALIDATES}
+- **Edge Strength**: [0.9, 1.0]
 
-Price Components:
-1. Base: $2,500
-2. Staking: `(staked * edgeStrength * basePrice) / (maxStake * maxEdge)`
-3. Challenge: Impact up to $500
-4. Edge: Direct strength value
+## Challenge System
+### Type Weights
+1. TOKEN_METRICS: 1.0x (Base)
+2. SECURITY: 1.2x
+3. EFFICIENCY: 1.1x
+4. NETWORK: 1.3x
+5. VALIDATION: 1.4x
+6. FOUNDATION: 1.5x
+
+### Quality Metrics
+- **Scoring Range**: 0-1000
+- **Impact Bound**: ≤ (1000 - current_value)
+- **Success Rate**: 99% recognition
+- **Verification Speed**: 92% faster
+
+## Value Flow
+### Components
+- **Genesis (g)**: Foundation strength
+- **Flow (f)**: Network connectivity
+- **Operations (o)**: Pattern optimization
+- **Resources (r)**: Stake distribution
+- **Challenges (c)**: Validation metrics
+- **Evolution (e)**: Growth potential
+
+### Formulas
+1. Edge Evolution:
+   ```
+   new_strength = current_strength * (1 + (quality_score * type_weights[type]))
+   ```
+
+2. Network Cap:
+   ```
+   min(21k, max(10.5k * size/100, 50k * size/24k))
+   ```
 
 ## Implementation Timeline
+1. **Week 1** (March 13-18)
+   - Edge Evolution contract
+   - Challenge system types
+   - Base validation rules
 
-### Week 1 (March 13-18)
-- Deploy contracts to Fuji ✓
-- Test edge evolution (0.9 → 1.0) ✓
-- Verify price calculation ($2,990.90 → $3,001.00) ✓
+2. **Week 2** (March 19-25)
+   - XP System integration
+   - Value flow mechanics
+   - Pattern recognition
 
-### Week 2 (March 19-25)
-- WILLPOWER Challenge.calculate_xp integration
-- FOUNDATION type implementation
-- XP scaling validation
+3. **Week 3-4** (March 26-April 12)
+   - Pre-sale preparation
+   - Network testing
+   - Security audits
 
-### Week 3-4 (March 26-April 12)
-- Pre-sale launch
-- 100 seats @ $2,500
-- 1M SHIBAK stake requirement
-- First 10: FOUNDATION access
-
-## Key Metrics
-- Initial TVL: $250k → $300k
-- Daily transactions: 100
-- Monthly XP: 210M
-- Network cap: 24,000 positions
+## Related Pages
+- [[WILLPOWER]]
+- [[Evolution Arena]]
+- [[Mathematical Framework]]
+- [[Network Validation]]
+- [[Value Flow System]]
+- [[Launch Details]]

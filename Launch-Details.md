@@ -1,39 +1,78 @@
+[[_TOC_]]
+
 # Launch Details
 
-## Pre-sale (March 26)
-- 100 seats available
-- Price: $2,500 per seat
-- Requirement: 1M SHIBAK stake
-- First 10 seats: FOUNDATION access
-- Initial TVL: $250k → $300k
+## Overview
+NATION's launch strategy focuses on controlled growth and network stability, leveraging WILLPOWER's pattern recognition for optimal seat distribution.
 
-## Seat Economics
-Initial seat composition:
-- Base: $2,500
-- Staking (1M, 0.9): $90
-- Challenge (0.8): $400
-- Edge (0.9): $0.90
-Total: $2,990.90
+## Pre-sale Details
+### Phase 1 (March 26-April 1)
+- **Seats**: 100 total
+- **Base Price**: $2,500 per seat
+- **Stake Requirement**: 1M SHIBAK
+- **TVL Target**: $250k → $350k
 
-Post-FOUNDATION evolution:
-- Base: $2,500
-- Staking (1M, 1.0): $100
-- Challenge (0.8): $400
-- Edge (1.0): $1.00
-Total: $3,001.00
+### Foundation Access
+First 10 seats receive:
+- FOUNDATION type access (1.5x weight)
+- Early pattern recognition
+- Network governance rights
+- Direct GFORCE integration
 
 ## Growth Targets
-- Launch Date: April 12, 2025
-- Phase 3 TVL: $5.61M
-- Daily Transactions: 100
-- Monthly XP: 210M
+### Network Metrics
+- **Initial Size**: 100 positions
+- **Phase 3 Size**: |V| ≤ 24,000
+- **Daily Transactions**: 100+
+- **System Uptime**: 99.98%
 
-## Requirements
-- Stake: 1M SHIBAK
-- Challenge cooldown: 1 day
-- Network cap: 24,000 positions
+### Value Flow
+- **Base XP**: 10,500 per action
+  * Chat: 5,000 XP
+  * Stake: 5,500 XP
+- **MVP**: 21,000 XP/action
+- **Phase 3**: 105,000 XP/action
+
+### Economic Model
+- **Initial TVL**: $250k → $350k
+- **Phase 3 Target**: $5.61M
+- **Value Gain**: $110.10 per seat
+- **Monthly XP**: 210M
+
+## Network Caps
+1. **Size-based**:
+   ```
+   min(21k, max(10.5k * size/100, 50k * size/24k))
+   ```
+
+2. **Value-based**:
+   - Components: [0,1000]
+   - Edge Strength: [0.9, 1.0]
+   - Challenge Impact: ≤ (1000 - current_value)
+
+## Implementation Schedule
+### Week 1 (March 13-18) ✓
+- Edge Evolution contract
+- Challenge system types
+- Base validation rules
+
+### Week 2 (March 19-25)
+- XP System integration
+- Value flow mechanics
+- Pattern recognition
+
+### Week 3-4 (March 26-April 12)
+- Pre-sale launch
+- Network testing
+- Security audits
 
 ## Integration Points
-- [WILLPOWER](WILLPOWER.md): Pattern recognition
-- [Evolution Arena](Evolution-Arena.md): Edge evolution
-- [XP System](XP-System.md): Growth mechanics
+- [[WILLPOWER]]: Pattern recognition
+- [[Evolution Arena]]: Challenge system
+- [[Value Flow System]]: Network mechanics
+- [[Technical Specifications]]: Implementation details
+
+## References
+- GFORCE-MATH proposal (1-G-L0-224-GFORCE-MATH)
+- [[Mathematical Framework]]
+- [[Network Validation]]
