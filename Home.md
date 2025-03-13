@@ -1,3 +1,5 @@
+Welcome to the NATION wiki!
+
 # NATION
 
 NATION is a digital nation builder platform that extends GFORCE's mathematical framework with unique value flows and network validation.
