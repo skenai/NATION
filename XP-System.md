@@ -7,27 +7,22 @@ NATION's XP system leverages WILLPOWER's pattern recognition capabilities to rew
 
 ## Base Components
 ### Initial Distribution
-- **Total**: 10,500 XP per action
-  * Chat: 5,000 XP
-  * Stake: 5,500 XP
+- Base XP allocation
+- Chat-based rewards
+- Stake-based rewards
 
 ### Growth Phases
 1. **MVP**
-   - Base: 21,000 XP/action
-   - Network size: 100 positions
-   - TVL: $350k
+   - Base XP scaling
+   - Network size targets
+   - TVL objectives
 
 2. **Phase 3**
-   - Base: 105,000 XP/action
-   - Network size: ≤ 24,000
-   - TVL: $5.61M
+   - Advanced XP mechanics
+   - Network expansion
+   - Growth projections
 
-## Scaling Formula
-```python
-network_cap = min(21k, max(10.5k * size/100, 50k * size/24k))
-```
-
-## Challenge Multipliers
+## Challenge System
 ### Type Weights
 1. TOKEN_METRICS: 1.0x (Base)
    - Value validation
@@ -59,28 +54,35 @@ network_cap = min(21k, max(10.5k * size/100, 50k * size/24k))
    - Genesis validation
    - Core stability
 
-### Quality Scoring
-- Range: 0-1000
-- Impact: ≤ (1000 - current_value)
+### Quality Assessment
+- Quality scoring system
+- Impact calculation rules
 - Success rate: 99% recognition
 - Verification: 92% faster
 
-## Network Caps
-### Size Constraints
-- Initial: 100 positions
-- Maximum: 24,000 positions
-- Growth rate: Based on validation success
+## Network Properties
+### Size Management
+- Initial network scope
+- Growth mechanics
+- Validation-based scaling
 
-### Value Bounds
-- Components (g,f,o,r,c,e): [0,1000]
-- Edge strength: [0.9, 1.0]
-- Challenge impact: ≤ (1000 - current_value)
+### Value System
+- Component framework
+- Edge strength evolution
+- Challenge impact rules
 
 ## Integration Points
-- [[WILLPOWER]]: Pattern recognition
-- [[Evolution Arena]]: Challenge system
-- [[Value Flow System]]: Network mechanics
-- [[Network Validation]]: Proof verification
+### WILLPOWER Integration
+- Pattern recognition (87% accuracy)
+- Market prediction (76% success)
+- System uptime (99.98%)
+- Smart contract automation (92% faster)
+
+### Evolution Arena
+- Challenge system mechanics
+- Network evolution rules
+- Value flow validation
+- Performance tracking
 
 ## Performance Metrics
 - Pattern recognition: 53+ dimensions
@@ -92,3 +94,4 @@ network_cap = min(21k, max(10.5k * size/100, 50k * size/24k))
 - GFORCE-MATH proposal (1-G-L0-224-GFORCE-MATH)
 - [[Technical Specifications]]
 - [[Launch Details]]
+- [[CHANDELIER Framework]]
