@@ -8,63 +8,53 @@ The NATION value flow system implements GFORCE's mathematical framework through 
 ## Value Components
 Each node in NATION's network carries six GFORCE components:
 - **g**: Genesis value (foundation strength)
-  * Initial: Based on stake amount
-  * Growth: Through FOUNDATION challenges
-  * Impact: Network stability
+  * Growth through FOUNDATION challenges
+  * Impact on network stability
+  * Validated by WILLPOWER
 
 - **f**: Flow strength (network connectivity)
-  * Initial: 0.9 (edge strength)
-  * Maximum: 1.0 (full strength)
-  * Growth: Through successful challenges
+  * Initial and maximum bounds
+  * Growth through successful challenges
+  * Network connectivity impact
 
 - **o**: Operational efficiency (pattern optimization)
-  * Base: Pattern recognition rate (76%)
-  * Enhancement: EFFICIENCY challenges
-  * Validation: WILLPOWER metrics
+  * Enhanced through EFFICIENCY challenges
+  * Validated by WILLPOWER metrics
+  * Pattern optimization focus
 
 - **r**: Resource allocation (stake distribution)
-  * Minimum: 1M SHIBAK
-  * Distribution: Based on network size
-  * Cap: 10M SHIBAK per position
+  * Minimum stake requirements
+  * Network size-based distribution
+  * Balanced growth mechanics
 
 - **c**: Challenge completion (validation metrics)
-  * Quality range: 0-1000
-  * Success rate: 99% recognition
-  * Impact: ≤ (1000 - current_value)
+  * Quality-based scoring system
+  * Success rate validation
+  * Impact boundaries
 
 - **e**: Edge evolution (growth potential)
-  * Initial strength: 0.9
-  * Maximum strength: 1.0
-  * Growth formula: strength * (1 + (quality * type_weight))
+  * Strength evolution mechanics
+  * Growth through challenges
+  * Network stability focus
 
 ## Flow Mechanics
 ### Network Bounds
 - Component values: [0,1000]
-- Challenge impact: ≤ (1000 - current_value)
-- Edge strength: [0.9, 1.0]
-- Network size: |V| ≤ 24,000
-- Base price: $2,500 per seat
+- Challenge impact boundaries
+- Edge strength evolution
+- Network size limits
+- Base economic metrics
 
 ### Evolution Rules
 1. Edge Growth
-   ```solidity
-   function evolveEdge(uint256 quality, uint256 typeWeight) public {
-       require(quality <= 1000, "Quality exceeds bounds");
-       require(typeWeight >= 1000 && typeWeight <= 1500, "Invalid weight");
-       
-       uint256 newStrength = currentStrength * (1 + (quality * typeWeight / 1000));
-       require(newStrength <= 1000, "Exceeds maximum strength");
-   }
-   ```
+   - Initial and maximum bounds
+   - Quality-based evolution
+   - Type weight impacts
 
 2. Challenge Impact
-   ```solidity
-   function calculateImpact(uint256 currentValue, uint256 quality, uint256 typeWeight) public pure returns (uint256) {
-       uint256 maxImpact = 1000 - currentValue;
-       uint256 baseImpact = quality * typeWeight / 1000;
-       return min(maxImpact, baseImpact);
-   }
-   ```
+   - Bounded by current values
+   - Type-specific calculations
+   - Network stability focus
 
 ### Challenge Types
 1. **TOKEN_METRICS** (1.0x)
@@ -106,12 +96,12 @@ CHANDELIER provides mathematical proofs for:
 
 ### Validation Process
 1. Pattern Recognition
-   - WILLPOWER analysis (53+ dimensions)
-   - Quality scoring (0-1000)
-   - Impact calculation
+   - WILLPOWER analysis
+   - Quality scoring system
+   - Impact assessment
 
 2. Edge Evolution
-   - Strength update
+   - Strength validation
    - Boundary enforcement
    - Network rebalancing
 
@@ -130,14 +120,12 @@ CHANDELIER provides mathematical proofs for:
 ### Initial State
 - Base price: $2,500
 - Stake requirement: 1M SHIBAK
-- Edge strength: 0.9
-- Value: $2,990.90
+- Network metrics
 
 ### Evolved State
-- Base price: $2,500
-- Maximum stake: 10M SHIBAK
-- Edge strength: 1.0
-- Value: $3,001.00
+- Growth-based pricing
+- Network-based stake requirements
+- Evolution metrics
 
 ## Integration Points
 - [[Evolution Arena]]: Network evolution mechanics

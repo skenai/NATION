@@ -11,34 +11,20 @@
 
 ### Smart Contracts
 1. **EdgeEvolution**
-   ```solidity
-   contract EdgeEvolution {
-       uint256[6] private typeWeights = [
-           1000,  // TOKEN_METRICS
-           1200,  // SECURITY
-           1100,  // EFFICIENCY 
-           1300,  // NETWORK
-           1400,  // VALIDATION
-           1500   // FOUNDATION
-       ];
-   }
-   ```
+   - Type-based challenge weights
+   - Edge strength evolution
+   - Network stability controls
 
 2. **PriceCalculator**
-   ```solidity
-   contract PriceCalculator {
-       uint256 constant BASE_PRICE = 2500;  // $2,500
-       uint256 constant MAX_VALUE = 1000;
-       uint256 constant MIN_EDGE_STRENGTH = 900;  // 0.9
-       uint256 constant MAX_EDGE_STRENGTH = 1000; // 1.0
-   }
-   ```
+   - Base price mechanics
+   - Value bounds
+   - Edge strength impact
 
 ## Network Constraints
 - **Size**: |V| ≤ 24,000 positions
 - **Value Components**: g,f,o,r,c,e ∈ [0,1000]
 - **Edge Types**: {PARENT, IMPLEMENTS, ENHANCES, FOUNDATION, VALIDATES}
-- **Edge Strength**: [0.9, 1.0]
+- **Edge Strength**: Evolution-based bounds
 
 ## Challenge System
 ### Type Weights
@@ -50,8 +36,8 @@
 6. FOUNDATION: 1.5x
 
 ### Quality Metrics
-- **Scoring Range**: 0-1000
-- **Impact Bound**: ≤ (1000 - current_value)
+- **Scoring Range**: Quality-based system
+- **Impact Bounds**: Network stability focus
 - **Success Rate**: 99% recognition
 - **Verification Speed**: 92% faster
 
@@ -64,16 +50,16 @@
 - **Challenges (c)**: Validation metrics
 - **Evolution (e)**: Growth potential
 
-### Formulas
+### Evolution Rules
 1. Edge Evolution:
-   ```
-   new_strength = current_strength * (1 + (quality_score * type_weights[type]))
-   ```
+   - Quality-based progression
+   - Type-weighted impact
+   - Network stability focus
 
-2. Network Cap:
-   ```
-   min(21k, max(10.5k * size/100, 50k * size/24k))
-   ```
+2. Network Growth:
+   - Size-based scaling
+   - Value-based bounds
+   - Challenge impact rules
 
 ## Implementation Timeline
 1. **Week 1** (March 13-18)
