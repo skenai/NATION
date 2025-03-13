@@ -1,26 +1,54 @@
+[[_TOC_]]
+
 # Value Flow System
 
-## Components
-Each node in NATION's network carries six fundamental value components:
-- g: Genesis value
-- f: Flow strength
-- o: Operational efficiency
-- r: Resource allocation
-- c: Challenge completion
-- e: Edge evolution
+## Overview
+The NATION value flow system implements GFORCE's mathematical framework through six fundamental components, each bounded within [0,1000] to ensure network stability and completeness.
+
+## Value Components
+Each node in NATION's network carries six GFORCE components:
+- **g**: Genesis value (foundation strength)
+- **f**: Flow strength (network connectivity)
+- **o**: Operational efficiency (pattern optimization)
+- **r**: Resource allocation (stake distribution)
+- **c**: Challenge completion (validation metrics)
+- **e**: Edge evolution (growth potential)
 
 ## Flow Mechanics
-- Value bounds: [0,1000]
-- Challenge impact ≤ (1000 - current_value)
-- Edge strength evolution: [0.9, 1.0]
+### Bounds
+- Component values: [0,1000]
+- Challenge impact: ≤ (1000 - current_value)
+- Edge strength: [0.9, 1.0]
+- Network size: |V| ≤ 24,000
+
+### Evolution Rules
+1. Edge Growth
+   - Initial: 0.9
+   - Maximum: 1.0
+   - Formula: strength * (1 + (quality * type_weight))
+
+2. Challenge Impact
+   - Base: TOKEN_METRICS (1.0x)
+   - Security: SECURITY (1.2x)
+   - Patterns: EFFICIENCY (1.1x)
+   - Properties: NETWORK (1.3x)
+   - Proofs: VALIDATION (1.4x)
+   - Hash Chain: FOUNDATION (1.5x)
 
 ## Network Validation
-- Completeness proofs through CHANDELIER
+CHANDELIER provides mathematical proofs for:
+- Network completeness (GFORCE-MATH)
 - Edge strength calculations
 - Challenge impact verification
 - Value flow boundaries
 
-## Integration
-- [Evolution Arena](Evolution-Arena.md): Network evolution mechanics
-- [WILLPOWER](WILLPOWER.md): Pattern recognition and validation
-- [Mathematical Framework](Mathematical-Framework.md): Formal proofs
+## Integration Points
+- [[Evolution Arena]]: Network evolution mechanics
+- [[WILLPOWER]]: Pattern recognition and validation
+- [[Mathematical Framework]]: Formal proofs
+- [[Technical Specifications]]: Implementation details
+
+## References
+- GFORCE-MATH proposal (1-G-L0-224-GFORCE-MATH)
+- [[Network Validation]]
+- [[Launch Details]]
