@@ -7,10 +7,10 @@ NATION's network validation system ensures mathematical completeness and correct
 
 ## Core Components
 ### Graph Properties
-- Network size: |V| ≤ 24,000 positions
-- Edge types: {PARENT, IMPLEMENTS, ENHANCES, FOUNDATION, VALIDATES}
-- Edge strength: [0.9, 1.0]
-- Value bounds: [0,1000]
+- Network size constraints
+- Edge type system
+- Strength evolution mechanics
+- Value boundaries
 
 ### Challenge Types
 1. **TOKEN_METRICS** (1.0x)
@@ -46,21 +46,21 @@ NATION's network validation system ensures mathematical completeness and correct
 ## Validation Process
 1. Challenge Submission
    - Type selection
-   - Quality scoring (0-1000)
+   - Quality assessment
    - Edge targeting
 
 2. Pattern Recognition
    - WILLPOWER analysis
-   - Multi-dimensional validation (53+ dimensions)
-   - Impact calculation
+   - Multi-dimensional validation
+   - Impact assessment
 
 3. Edge Evolution
-   - Strength update: strength * (1 + (quality * type_weight))
+   - Strength validation
    - Boundary enforcement
    - Network rebalancing
 
 4. Value Flow
-   - Component updates (g,f,o,r,c,e)
+   - Component updates
    - Flow validation
    - Stake redistribution
 
