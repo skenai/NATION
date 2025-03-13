@@ -1,16 +1,16 @@
 # NATION Documentation
 
 ## Core Components
-* [WILLPOWER](WILLPOWER.md)
-* [Evolution Arena](Evolution-Arena.md)
-* [Mathematical Framework](Mathematical-Framework.md)
-* [Value Flow System](Value-Flow.md)
-* [Network Validation](Network-Validation.md)
-* [XP System](XP-System.md)
+* [[WILLPOWER]]
+* [[Evolution Arena]]
+* [[Mathematical Framework]]
+* [[Value Flow System]]
+* [[Network Validation]]
+* [[XP System]]
 
 ## Technical Details
-* [Technical Specifications](Technical-Specifications.md)
-* [Launch Details](Launch-Details.md)
+* [[Technical Specifications]]
+* [[Launch Details]]
 
 ## Integration Points
 * CHANDELIER Framework

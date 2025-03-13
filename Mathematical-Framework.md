@@ -1,3 +1,5 @@
+[[_TOC_]]
+
 # Mathematical Framework
 
 CHANDELIER provides the mathematical foundation for NATION through:
@@ -21,6 +23,11 @@ CHANDELIER provides the mathematical foundation for NATION through:
 - Challenge impact verification
 
 ## Integration Points
-- [WILLPOWER](WILLPOWER.md): Pattern recognition
-- [Evolution Arena](Evolution-Arena.md): Network evolution
+- [[WILLPOWER]]: Pattern recognition
+- [[Evolution Arena]]: Network evolution
 - GFORCE: Mathematical foundation
+
+## References
+- GFORCE-MATH proposal (1-G-L0-224-GFORCE-MATH)
+- [[Technical Specifications]]
+- [[Network Validation]]
