@@ -1,16 +1,16 @@
 # NATION Documentation
 
 ## Core Technology
-* [WILLPOWER]
-* [Evolution Arena]
-* [CHANDELIER Framework]
-* [GFORCE Foundation]
-* [SKENAI Platform]
+* [[WILLPOWER]]
+* [[Evolution Arena]]
+* [[CHANDELIER Framework]]
+* [[GFORCE Foundation]]
+* [[SKENAI Platform]]
 
 ## Economic System
-* [Economics]
-* [XP System]
+* [[Economics]]
+* [[XP System]]
 
 ## Implementation
-* [Implementation Timeline]
-* [Deployment Guide]
+* [[Implementation Timeline]]
+* [[Deployment Guide]]
