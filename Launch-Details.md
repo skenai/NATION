@@ -7,53 +7,54 @@ NATION's launch strategy focuses on controlled growth and network stability, lev
 
 ## Pre-sale Details
 ### Phase 1 (March 26-April 1)
-- **Seats**: 100 total
-- **Base Price**: $2,500 per seat
-- **Stake Requirement**: 1M SHIBAK
-- **TVL Target**: $250k → $350k
+- Limited seat availability
+- Base price structure
+- Stake requirements
+- Initial TVL targets
 
 ### Foundation Access
-First 10 seats receive:
-- FOUNDATION type access (1.5x weight)
+First wave participants receive:
+- FOUNDATION type access
 - Early pattern recognition
 - Network governance rights
 - Direct GFORCE integration
 
 ## Growth Targets
 ### Network Metrics
-- **Initial Size**: 100 positions
-- **Phase 3 Size**: |V| ≤ 24,000
-- **Daily Transactions**: 100+
-- **System Uptime**: 99.98%
+- Initial network scope
+- Phase 3 expansion
+- Daily transaction goals
+- System uptime: 99.98%
 
 ### Value Flow
-- **Base XP**: 10,500 per action
-  * Chat: 5,000 XP
-  * Stake: 5,500 XP
-- **MVP**: 21,000 XP/action
-- **Phase 3**: 105,000 XP/action
+- Base XP allocation
+- MVP scaling mechanics
+- Phase 3 progression
+- Growth-based rewards
 
 ### Economic Model
-- **Initial TVL**: $250k → $350k
-- **Phase 3 Target**: $5.61M
-- **Value Gain**: $110.10 per seat
-- **Monthly XP**: 210M
+- Initial TVL targets
+- Growth projections
+- Value optimization
+- Monthly rewards
 
-## Network Caps
-1. **Size-based**:
-   ```
-   min(21k, max(10.5k * size/100, 50k * size/24k))
-   ```
+## Network Properties
+### Size Management
+- Growth-based scaling
+- Network size constraints
+- Challenge-based evolution
+- Performance metrics
 
-2. **Value-based**:
-   - Components: [0,1000]
-   - Edge Strength: [0.9, 1.0]
-   - Challenge Impact: ≤ (1000 - current_value)
+### Value System
+- Component framework
+- Edge strength evolution
+- Challenge impact rules
+- Network stability focus
 
 ## Implementation Schedule
 ### Week 1 (March 13-18) ✓
-- Edge Evolution contract
-- Challenge system types
+- Edge Evolution system
+- Challenge type framework
 - Base validation rules
 
 ### Week 2 (March 19-25)
@@ -67,12 +68,26 @@ First 10 seats receive:
 - Security audits
 
 ## Integration Points
-- [[WILLPOWER]]: Pattern recognition
-- [[Evolution Arena]]: Challenge system
-- [[Value Flow System]]: Network mechanics
-- [[Technical Specifications]]: Implementation details
+### WILLPOWER Integration
+- Pattern recognition (87% accuracy)
+- Market prediction (76% success)
+- System uptime (99.98%)
+- Smart contract automation (92% faster)
+
+### Evolution Arena
+- Challenge system mechanics
+- Network evolution rules
+- Value flow validation
+- Performance tracking
+
+## Performance Metrics
+- Pattern recognition: 53+ dimensions
+- Validation accuracy: 87%
+- System uptime: 99.98%
+- Daily transactions: 100+
 
 ## References
 - GFORCE-MATH proposal (1-G-L0-224-GFORCE-MATH)
 - [[Mathematical Framework]]
 - [[Network Validation]]
+- [[CHANDELIER Framework]]
