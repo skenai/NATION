@@ -32,13 +32,13 @@ See [[Token System]] for complete details.
 - Native participation token of [[SKENAI Platform]]
 - Purpose: Enable system participation and community engagement
 - Total supply: 100,000,000,000,000,000 SHIBAKEN (100 quadrillion)
-- Initial supply: 100,000,000 SHIBAKEN (100 million)
+- Initial supply: 1,000,000,000,000 SHIBAKEN (1 trillion)
 - Annual inflation: 3%
 - Status: Deployed May 2021
 - Contract address: 0xa4cf2afd3b165975afffbf7e487cdd40c894ab6b
 
 ### Governance
-- Minimum proposal balance: 1,000 SHIBAKEN
+- Minimum proposal balance: 10,000,000 SHIBAKEN
 - Voting power based on token holdings
 - Integrated with [[UnBreakable Bond]] system
 - Integration with [[SBX Token]], [[SBV Token]], and [[BSTBL Token]]
@@ -54,18 +54,18 @@ See [[Token Integration|1-G-L0-224-TOKEN-INTEGRATION]] for details.
 ## Staking Mechanics
 ### Network Seats
 - 100 total network seats
-- Minimum stake: 10,000 SHIBAKEN per seat
+- Minimum stake: 100,000,000 SHIBAKEN per seat
 - Lock period: 30 days minimum
 - Earn 0.1% daily rewards
 
 ### Edge Creation
-- Requires 1,000 SHIBAKEN per edge
+- Requires 10,000,000 SHIBAKEN per edge
 - Both parties must stake
 - Earn 0.05% daily edge rewards
 - Additional rewards for high-quality edges
 
 ### Challenge Participation
-- Stake 500 SHIBAKEN to join challenges
+- Stake 5,000,000 SHIBAKEN to join challenges
 - Higher stakes = higher potential rewards
 - Rewards based on challenge difficulty
 - Team amplification bonuses
