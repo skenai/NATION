@@ -30,6 +30,10 @@
 * [[Deployment Guide]]
 
 ## Bubble Implementation
+* [[Bubble Demo Plan]]
+  * Chat Interface Demo
+  * Market Preview
+  * Design Elements
 * [[WILLPOWER Bubble]]
   * Chat Interface (87% accuracy)
   * Proposal System
