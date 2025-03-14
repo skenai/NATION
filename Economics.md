@@ -55,17 +55,19 @@ See [[Token Integration|1-G-L0-224-TOKEN-INTEGRATION]] for details.
 ### Network Seats
 - 100 total network seats
 - Minimum stake: 100,000,000 SHIBAKEN per seat
-- Lock period: 30 days minimum
+- Lock period: 12 months minimum
 - Earn 0.1% daily rewards
 
 ### Edge Creation
 - Requires 10,000,000 SHIBAKEN per edge
 - Both parties must stake
+- Lock period: 6 months minimum
 - Earn 0.05% daily edge rewards
 - Additional rewards for high-quality edges
 
 ### Challenge Participation
 - Stake 5,000,000 SHIBAKEN to join challenges
+- Lock period: 3 months minimum
 - Higher stakes = higher potential rewards
 - Rewards based on challenge difficulty
 - Team amplification bonuses
