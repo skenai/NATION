@@ -1,0 +1,569 @@
+/* Main Styles for NATION Network Website */
+
+/* Custom Properties */
+:root {
+    --primary: #3B82F6;
+    --primary-dark: #2563EB;
+    --secondary: #10B981;
+    --accent: #8B5CF6;
+    --background: #111827;
+    --surface: #1F2937;
+    --text: #F3F4F6;
+    --text-secondary: #9CA3AF;
+}
+
+/* Base Styles */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Grid Animation */
+.grid-animation {
+    background: 
+        linear-gradient(var(--surface) 2px, transparent 2px),
+        linear-gradient(90deg, var(--surface) 2px, transparent 2px);
+    background-size: 40px 40px;
+    background-position: center;
+    animation: gridMove 20s linear infinite;
+    opacity: 0.1;
+}
+
+@keyframes gridMove {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(40px); }
+}
+
+/* Stat Boxes */
+.stat-box {
+    background: var(--surface);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 150px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.stat-box:hover {
+    transform: translateY(-4px);
+}
+
+/* Neural Network Animation */
+.neural-network-animation {
+    height: 400px;
+    background: radial-gradient(circle at center, var(--primary) 2px, transparent 2px);
+    background-size: 40px 40px;
+    animation: pulseNodes 4s ease-in-out infinite;
+    opacity: 0.3;
+    border-radius: 1rem;
+}
+
+@keyframes pulseNodes {
+    0%, 100% { opacity: 0.3; }
+    50% { opacity: 0.5; }
+}
+
+/* Component Cards */
+.component-card {
+    background: var(--surface);
+    padding: 2rem;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+}
+
+.component-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.component-card h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: var(--primary);
+}
+
+/* Subsystem Cards */
+.subsystem-card {
+    background: var(--surface);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-left: 4px solid var(--primary);
+}
+
+.subsystem-card h4 {
+    color: var(--primary);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+/* Token Card */
+.token-card {
+    background: var(--surface);
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(59, 130, 246, 0.1);
+}
+
+.token-card .flex {
+    padding: 0.75rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Staking Card */
+.staking-card {
+    background: var(--surface);
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(16, 185, 129, 0.1);
+}
+
+.staking-option {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    margin-bottom: 1rem;
+}
+
+.staking-option h4 {
+    color: var(--secondary);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+/* Metric Cards */
+.metric-card {
+    background: var(--surface);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.metric-card:hover {
+    transform: translateY(-4px);
+}
+
+/* Subsystem Detail Cards */
+.subsystem-detail-card {
+    background: var(--surface);
+    padding: 2rem;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.subsystem-detail-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    border-color: var(--primary);
+}
+
+/* Integration Cards */
+.integration-card {
+    background: var(--surface);
+    padding: 2rem;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.integration-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    border-color: var(--accent);
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 0.5rem;
+}
+
+.stat .value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.stat .label {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+/* Timeline */
+.timeline {
+    padding-left: 2rem;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background: var(--primary);
+    opacity: 0.3;
+}
+
+.timeline-item {
+    position: relative;
+    padding-bottom: 3rem;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -2rem;
+    top: 0;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background: var(--primary);
+    border: 2px solid var(--background);
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
+}
+
+.timeline-item .date {
+    font-size: 0.875rem;
+    color: var(--primary);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.timeline-item .content {
+    background: var(--surface);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+.timeline-item .content:hover {
+    transform: translateX(4px);
+    border-color: var(--primary);
+}
+
+.timeline-item:last-child {
+    padding-bottom: 0;
+}
+
+/* Responsive Timeline */
+@media (max-width: 768px) {
+    .timeline {
+        padding-left: 1.5rem;
+    }
+    
+    .timeline-item::before {
+        left: -1.5rem;
+        width: 0.75rem;
+        height: 0.75rem;
+    }
+    
+    .timeline-item .content {
+        padding: 1rem;
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .stat-box {
+        min-width: 120px;
+        padding: 1rem;
+    }
+
+    .component-card {
+        padding: 1.5rem;
+    }
+
+    .neural-network-animation {
+        height: 300px;
+    }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--surface);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary);
+}
+
+/* Feature Cards */
+.feature-card {
+    background: var(--surface);
+    padding: 2rem;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.feature-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    border-color: var(--primary);
+}
+
+/* Mechanics Cards */
+.mechanics-card {
+    background: var(--surface);
+    padding: 2rem;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mechanics-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    border-color: var(--secondary);
+}
+
+.edge-type, .level-type, .xp-level {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 0.5rem;
+    transition: all 0.2s ease;
+}
+
+.edge-type:hover, .level-type:hover, .xp-level:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.type, .level, .requirement {
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.description, .benefit {
+    color: var(--text-secondary);
+}
+
+/* Validation Cards */
+.validation-card {
+    background: var(--surface);
+    padding: 2rem;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.validation-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    border-color: var(--accent);
+}
+
+/* Analytics Cards */
+.analytics-card {
+    background: var(--surface);
+    padding: 2rem;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.analytics-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    border-color: var(--primary);
+}
+
+.bubblemap-container {
+    position: relative;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.bubblemap-container iframe {
+    background: transparent;
+    transition: opacity 0.3s ease;
+}
+
+.metric-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 0.5rem;
+    transition: all 0.2s ease;
+}
+
+.metric-row:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.metric-label {
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+}
+
+.metric-value {
+    color: var(--primary);
+    font-weight: bold;
+}
+
+/* Responsive Analytics */
+@media (max-width: 768px) {
+    .analytics-card {
+        padding: 1rem;
+    }
+    
+    .bubblemap-container {
+        height: 400px;
+    }
+    
+    .metric-row {
+        padding: 0.75rem;
+    }
+}
+
+/* BOKER Section Styles */
+.market-card,
+.reserve-card {
+    transition: transform 0.3s ease;
+}
+
+.market-card:hover,
+.reserve-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 1rem;
+}
+
+.feature-item:last-child {
+    border-bottom: none;
+}
+
+.staking-tiers .tier,
+.revenue-distribution .distribution-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.staking-tiers .tier:hover,
+.revenue-distribution .distribution-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Analytics Section Enhancements */
+.bubblemaps-container {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.bubblemaps-container:hover {
+    transform: scale(1.02);
+}
+
+.metrics-card .metric-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.metrics-card .metric-row:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.metric-label {
+    font-weight: 500;
+    color: #94a3b8;
+}
+
+.metric-value {
+    font-weight: 600;
+    color: #e2e8f0;
+}
+
+/* Token Distribution Styles */
+.token-card,
+.staking-card {
+    background: rgba(17, 24, 39, 0.8);
+    border-radius: 1rem;
+    padding: 2rem;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease;
+}
+
+.token-card:hover,
+.staking-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Navigation Enhancement */
+.nav-link {
+    position: relative;
+    padding-bottom: 0.25rem;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #60a5fa;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
