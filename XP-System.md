@@ -82,3 +82,46 @@ NATION's XP system demonstrates the power of unity through collaborative rewards
 - [[Network Validation]]
 - [[Mathematical Framework]]
 - [[SKENAI Platform]]
+
+## Event System Development Prompt
+
+Please help me validate and expand our SKENAI XP/Proposal event system by providing:
+
+1. Additional Event Types & XP Values:
+   - User actions beyond current set (onboarding, tasks, etc)
+   - Proposal quality/speed bonuses
+   - Team achievements
+   - Governance participation rewards
+   - Validator/reviewer incentives
+   - Special event multipliers
+   - Comment quality rewards
+
+2. Database & Flow Patterns:
+   - DynamoDB schema optimizations
+   - Efficient index patterns for:
+     * XP aggregation/leaderboards
+     * Proposal status tracking
+     * Comment threading
+     * Validation history
+   - Event flow through stack:
+     Next.js → API → Redpanda → Lambda → DynamoDB
+
+3. System Mechanics:
+   - XP corrections/rollbacks
+   - Proposal versioning
+   - Comment moderation
+   - Validation queues
+   - Achievement unlocks
+   - Leaderboard updates
+   - Search optimization
+   - GFORCE voting weight
+
+4. Edge Cases & Scaling:
+   - High-volume event handling
+   - System maintenance periods
+   - Disputed actions
+   - Data consistency
+   - Cache strategies
+   - Performance bottlenecks
+
+This will help finalize our event schemas and ensure proper integration with SKENAI's infrastructure.
